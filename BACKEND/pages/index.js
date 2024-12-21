@@ -2,7 +2,6 @@ import Head from "next/head";
 import { Bar } from "react-chartjs-2";
 import { IoHome } from "react-icons/io5";
 import { useEffect, useState } from "react";
-import LoginLayout from "@/components/LoginLayout";
 import {
   Chart as chartJS,
   CategoryScale,
@@ -157,7 +156,7 @@ export default function Home() {
               </span>
             </div>
             <div className="four_card">
-              <h2>Gallery Photos</h2>
+              <h2>Total Photos</h2>
               <span>{photosData.length}</span>
             </div>
           </div>
@@ -206,7 +205,27 @@ export default function Home() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Next Js</td>
+                      <td>Node Js</td>
+                      <td>
+                        {
+                          blogsData.filter(
+                            (dat) => dat.blogcategory[0] === "Node js"
+                          ).length
+                        }
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>React</td>
+                      <td>
+                        {
+                          blogsData.filter(
+                            (dat) => dat.blogcategory[0] === "React js"
+                          ).length
+                        }
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Next js</td>
                       <td>
                         {
                           blogsData.filter(
@@ -226,21 +245,31 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr>
-                      <td>Node js</td>
+                      <td>Digital Marketing</td>
                       <td>
                         {
                           blogsData.filter(
-                            (dat) => dat.blogcategory[0] === "Node js"
+                            (dat) => dat.blogcategory[0] === "Digital Marketing"
                           ).length
                         }
                       </td>
                     </tr>
                     <tr>
-                      <td>React</td>
+                      <td>Database</td>
                       <td>
                         {
                           blogsData.filter(
-                            (dat) => dat.blogcategory[0] === "React"
+                            (dat) => dat.blogcategory[0] === "Database"
+                          ).length
+                        }
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Deployment</td>
+                      <td>
+                        {
+                          blogsData.filter(
+                            (dat) => dat.blogcategory[0] === "Deployment"
                           ).length
                         }
                       </td>
