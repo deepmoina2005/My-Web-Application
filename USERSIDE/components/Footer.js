@@ -12,8 +12,8 @@ export default function Footer() {
             </div>
             <div className="ul flex gap-2">
                 <li><Link href= '/services'>Services</Link></li>
-                <li><Link href= '/works'>Works</Link></li>
-                <li><Link href= ''>Resume</Link></li>
+                <li><Link href= '/projects'>Works</Link></li>
+                <li><Link href= '/img/Resume.pdf'>Resume</Link></li>
                 <li><Link href= '/contact'>Contact</Link></li>
             </div>
             <div className="hero_social">
