@@ -483,13 +483,15 @@ button {
     flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-top: 2rem;
 }
 
 .four_card {
     position: relative;
-    width: 340px;
-    height: 230px;
+    width: 320px;
+    height: 210px;
     background-image: linear-gradient(to bottom right, #0e031b, #571f9e);
     box-shadow: 2px 12px 26px 3px rgba(126, 55, 216, .3);
     color: #fff;
@@ -504,24 +506,24 @@ button {
 .four_card:nth-child(2) {
     /* background-image: linear-gradient(to bottom right, #ff9cc3, #fd3484); */
     background-image: linear-gradient(to bottom right, #0e031b, #571f9e);
-    box-shadow: 2px 12px 26px 3px rgba(254, 128, 178, .3);
+    box-shadow: 2px 12px 26px 3px rgba(126, 55, 216, .3);
 }
 
 .four_card:nth-child(3) {
     /* background-image: linear-gradient(to bottom right, #ffd85d, #ffc200); */
     background-image: linear-gradient(to bottom right, #0e031b, #571f9e);
-    box-shadow: 2px 12px 26px 3px rgba(255, 199, 23, .3);
+    box-shadow: 2px 12px 26px 3px rgba(126, 55, 216, .3);
 }
 
 .four_card:nth-child(4) {
     /* background-image: linear-gradient(to bottom right, #00d2d7, #07b2dd); */
     background-image: linear-gradient(to bottom right, #0e031b, #571f9e);
-    box-shadow: 2px 12px 26px 3px rgba(6, 181, 221, .3);
+    box-shadow: 2px 12px 26px 3px rgba(126, 55, 216, .3);
 }
 
 .four_card h2 {
     font-size: 2rem;
-    text-shadow: 0 0 10px #999;
+    /* text-shadow: 0 0 10px #999; */
 }
 
 .four_card span {
@@ -546,7 +548,7 @@ button {
 .leftyearoverview {
     position: relative;
     width: 65%;
-    height: 600px;
+    height: 700px;
     background-color: #fff;
     box-shadow: 0 0 10px #d4d4d4;
     border-radius: 50px;
@@ -559,7 +561,7 @@ button {
 .right_salescont {
     position: relative;
     width: 32%;
-    height: 600px;
+    height: 850px;
     border-radius: 50px;
     padding: 2.5rem 4rem;
     box-shadow: 0 0 10px #d4d4d4;
@@ -645,14 +647,16 @@ button {
 }
 
 
-.leftyearoverview h3,
+.leftyearoverview h3{
+    font-weight: 1000;
+}
 .right_salescont h3 {
     font-weight: 800;
 }
 
 .leftyearoverview h3 span {
     color: #158df7;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 
