@@ -147,11 +147,10 @@ export default function Blog(
             multiple
           >
             <option value="Node js">Node Js</option>
-            <option value="React js">React Js</option>
+            <option value="React js">React</option>
             <option value="Next js">Next Js</option>
             <option value="Css">Css</option>
             <option value="Digital Marketing">Digital Marketing</option>
-            <option value="Flutter Dev">Flutter Dev</option>
             <option value="Database">Database</option>
             <option value="Deployment">Deployment</option>
           </select>
