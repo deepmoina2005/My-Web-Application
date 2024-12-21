@@ -96,7 +96,7 @@ export default function contacts() {
                                     <tr key={blog._id}>
                                         <td>{indexOfFirstBlog + index + 1}</td>
                                         <td><h3>{blog.name}</h3></td>
-                                        <td><h3>{blog.email}</h3></td>
+                                        <td><p>{blog.email}</p></td>
                                         <td><h3>{blog.phone}</h3></td>
                                         <td><h3>{blog.project[0]}</h3></td>
                                         <td>
